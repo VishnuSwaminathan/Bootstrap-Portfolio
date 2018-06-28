@@ -12,9 +12,23 @@
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
     crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
 </head>
 
 <body>
+  <style>
+    .about {
+      font-family: 'Assistant', sans-serif;
+      font-size: 20px;
+    }
+
+    @media only screen and (max-width: 600px) {
+      .about {
+        font-size: 17px;
+        ;
+      }
+    }
+  </style>
 
   <nav class="navbar navbar-inverse">
     <div class="container-fluid">
@@ -44,13 +58,16 @@
 
   <div class="jumbotron container text-center">
     <h1>About Me</h1>
-    <p>
-      <img src="assets/images/cat.jpeg" alt="Me" width="100" height="100" /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, nihil enim ipsam ullam vitae aperiam esse sapiente obcaecati
-      nulla nobis quo qui nisi similique? Pariatur voluptas animi sed! Cum, ipsa?Lorem ipsum dolor sit amet consectetur,
-      adipisicing elit. Perspiciatis cupiditate, laudantium tenetur officia non maxime accusamus unde id delectus, quisquam
-      voluptatibus neque voluptas qui autem facilis tempora laborum suscipit totam?Lorem ipsum dolor sit amet consectetur
-      adipisicing elit. Quos voluptatem porro velit iure, suscipit est blanditiis cum, eum deserunt id voluptate dolor illum
-      iste facilis quod sapiente aperiam nam incidunt.</p>
+    <p class="container">
+      <img src="assets/images/cat.jpeg" alt="Me" width="100" height="100" />
+      <div class="about w-75 text-justify text-center"> I'm always curious about everything, so I like to consider myself a learner of everything. I am a techy in the most
+        all encompassing way possible; if something requires electricity, I'm automatically an instant fan of it. I've always
+        been surrounded by technology, spent my highschool years building/programming robots, and went on to study electrical
+        and computer engineering at Dalhousie University. I am currently in the process of becoming a full stack web developer,
+        but am also interested in also pursuing cryptography, machine learning, and neural networking. But outside of all
+        that geeky stuff, I like to
+        <b>try</b> and produce my own music (typically hiphop), and also I'm an avid amatuer photographer and graphic designer.</div>
+    </p>
   </div>
 
 
